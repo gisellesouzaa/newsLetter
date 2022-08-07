@@ -3,7 +3,6 @@
     box-sizing: border-box;
     padding: 0;
     
-    
 }
 
 :root {
@@ -17,10 +16,11 @@
 body {
     height: 100vh; 
     /* width: 100vw; */
-    background-color: #000000;
+    background-color: var(--body-bg-color);
     display: grid;
     grid-template-areas: "main aside";
     grid-template-columns: 1fr 1fr;
+    
 }
 
 main {
@@ -51,8 +51,15 @@ aside {
 }
 
 .textContainer h2 {
+    font-family: work sans, sans-serif;
+    font-size: 24px;
     color: var(--title-color);
     
+}
+
+.textContainer h3, p {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 14 px;
 }
 
 .form {
@@ -62,12 +69,18 @@ aside {
     z-index: 1;
     width: 798px;
     height: 84px;
-    top: 388px;
+    margin-top: 388px;
     margin-left: 36px;
     /* margin-top: 49.56px; */
     color: var(--form-color);
     /* display: flex; */
     
+}
+
+.form label {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 14px;
+    font-style: bold;
 }
 
 form .email {
@@ -96,16 +109,27 @@ form .email {
 
 nav a {
     position: absolute;
-    left: 36px;
-    top: 522px;
+    margin-left: 36px;
+    margin-top: 522px;
     text-decoration: none;
     color:inherit;
     color: var(--bg-button-color);
+    font-family: 'League Spartan', sans-serif;
+    font-size: 14px;
+    font-style: bold;
     
 }
 
 nav a:hover {
     color: var(--title-color);
+}
+
+nav img {
+    position: absolute;
+    margin-left: 158px;
+    margin-top: 521px;
+    width: 16px;
+    height: 16px;
 }
 
 .aside img {
