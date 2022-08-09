@@ -24,6 +24,8 @@ body {
 main {
     grid-area: main;
     background-color: var(--body-bg-color);
+    font-family: 'League Spartan', sans-serif;
+    font-size: 14px;
 }
 
 aside {
@@ -51,8 +53,7 @@ aside {
     margin-top: 236px;
     width: 647px;
     height: 102px;
-    font-family: 'League Spartan', sans-serif;
-    font-size: 14 px;
+
 
 }
 
@@ -70,9 +71,6 @@ aside {
 }
 
 .form {
-    border: #04D361 solid 1px;
-    display: flex;
-    flex-direction: column;
     position: absolute;
     z-index: 1;
     width: 798px;
@@ -83,8 +81,6 @@ aside {
 }
 
 .form label {
-    font-family: 'League Spartan', sans-serif;
-    font-size: 14px;
     font-style: bold;
     color: #A8A8A8;
 }
@@ -92,40 +88,23 @@ aside {
 form .email {
    background-color: var(--bg-button-color);
    border-left: solid 5px #04D361;
-    display: inline;
-    /* flex-direction: row; */
-}
-
-.email {
-   border: #04D361 solid 1px;
    margin-top: 14px;
-   display: inline;
-   align-items: center;
-
-   /* justify-content: center;
-   justify-items: center; */
+   display: flex;
 }
 
 
 #inputEmail {
     width: 748px;
     height: 50px;
-}
-
-.navArrow {
-   display: flex;
-   justify-content: center;
-   height: auto;
+    padding-left: 15px;
 }
 
 .email img {
-    border: #04D361 solid 1px;
-    /* margin-top: 15px; */
+    margin: 12px;
 }
 
 nav a {
     margin-left: 36px;
-    /* margin-top: 522px; */
     text-decoration: none;
     color:inherit;
     color: var(--bg-button-color);
