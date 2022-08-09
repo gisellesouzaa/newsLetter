@@ -92,6 +92,10 @@ form .email {
    display: flex;
 }
 
+form .email:hover {
+    background-color: var(--title-color); 
+    transition: 1s;
+}
 
 #inputEmail {
     width: 748px;
@@ -116,6 +120,7 @@ nav a {
 
 nav a:hover {
     color: var(--title-color);
+    transition: 1s;
 }
 
 nav img {
