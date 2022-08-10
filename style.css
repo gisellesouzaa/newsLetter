@@ -126,7 +126,7 @@ nav a:hover {
     transition: 1s;
 }
 
-@media only screen and (max-width: 830px) {
+@media (max-width: 830px) {
     .form {
         width: 647px;
     }
@@ -136,7 +136,7 @@ nav a:hover {
     }
   }
 
-@media only screen and (max-width: 680px) {
+@media (max-width: 680px) {
     .form {
         width: 550px;
     }
@@ -146,3 +146,36 @@ nav a:hover {
     }
   }
 
+@media (max-width: 600px) {
+
+    body {
+        grid-template-areas: 
+        "main"
+        "aside";
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    main {
+        font-size: 12px;
+        /* background-color: rgb(237, 224, 224); */
+    }
+
+    .logo {
+        width: 80%;
+    }
+
+    .textContainer {
+        margin-top: 200px;
+        width: 80%;
+    }
+
+    .textContainer h2 {
+        font-size: 20px;
+    }
+
+    .form {
+        width: 80%;
+    }
+
+}
