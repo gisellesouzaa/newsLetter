@@ -1,7 +1,7 @@
 * {
     margin: 0;
-    box-sizing: border-box;
     padding: 0;
+    box-sizing: border-box;
 }
 
 :root {
@@ -22,14 +22,14 @@ body {
 }
 
 main {
-    grid-area: main;
+    grid-area: "main";
     background-color: var(--body-bg-color);
     font-family: 'League Spartan', sans-serif;
     font-size: 14px;
 }
 
 aside {
-    grid-area: aside;
+    grid-area: "aside";
     background-image: url("./assets/read_news.jpg");
     background-size: cover;
     background-position: right center;
@@ -40,8 +40,7 @@ aside {
     position: absolute;
     width: 389px;
     height: 94px;
-    margin-top: 50px;
-    margin-left: 30px;
+    margin: 50px 0px 0px 30px;
 
 }
 
@@ -49,8 +48,7 @@ aside {
     position: absolute;
     z-index: 1;
     color: var(--text-color);
-    margin-left: 36px;
-    margin-top: 236px;
+    margin: 236px 0px 0px 36px;
     width: 647px;
     height: 102px;
 
@@ -66,8 +64,7 @@ aside {
 
 .textContainer strong {
     display: block;
-    margin-top: 9px;
-    margin-bottom: 9px;
+    margin: 9px 0px;
 }
 
 .form {
@@ -75,8 +72,7 @@ aside {
     z-index: 1;
     width: 798px;
     height: 84px;
-    margin-top: 388px;
-    margin-left: 36px;
+    margin: 388px 0px 0px 36px;
     color: var(--form-color);    
 }
 
@@ -86,15 +82,9 @@ aside {
 }
 
 form .email {
-   background-color: var(--bg-button-color);
    border-left: solid 5px #04D361;
    margin-top: 14px;
    display: flex;
-}
-
-form .email:hover {
-    background-color: var(--title-color); 
-    transition: 1s;
 }
 
 #inputEmail {
@@ -103,8 +93,22 @@ form .email:hover {
     padding-left: 15px;
 }
 
+.btnSend {
+    background-color: var(--bg-button-color);
+    cursor: pointer;
+}
+
+.btnSend:hover {
+    background-color: var(--title-color); 
+    transition: 1s;
+}
+
 .email img {
-    margin: 12px;
+    margin: 14px 9px 0px;
+}
+
+nav {
+    margin-top: 522px;
 }
 
 nav a {
@@ -112,10 +116,7 @@ nav a {
     text-decoration: none;
     color:inherit;
     color: var(--bg-button-color);
-    font-family: 'League Spartan', sans-serif;
-    font-size: 14px;
     font-style: bold;
-    
 }
 
 nav a:hover {
@@ -123,11 +124,4 @@ nav a:hover {
     transition: 1s;
 }
 
-nav img {
-    margin-left: 0px;
-    margin-top: 522px;
-    margin-bottom: 0;
-    width: 16px;
-    height: 16px;
-}
 
