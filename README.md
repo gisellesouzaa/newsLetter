@@ -2,12 +2,14 @@
 
 <p align="center">Página desenvolvida como desafio do curso Fundamentar da Rocketseat. </p>
 
+<img src="./PáginaNewsletter.png" alt="Foto da página">
+
 ---
 
 ### Etapas do projeto
 
 - [x] Criação da página com base no layout do Figma 
-- [x] Estilização com seletor hover
+- [x] Personalização com seletor hover
 - [x] Responsividade da página
 
 ---
