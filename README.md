@@ -25,11 +25,11 @@
 
 ---
 
-### Links
+### Testar aplicação:
 
-<p style="font-size: 12px">
-  <a href="https://gisellesouzaa.github.io/newsLetter/" target="_blank">Clique aqui</a> para testar o site!</p>
-  <a href=https://www.figma.com/file/7pPTCQcJ3CA0d2ZMnqbJGw/DD-%2F-RocketNews-(Copy)?node-id=101%3A2>Layout do desafio<a> </li>
+<a href="https://gisellesouzaa.github.io/newsLetter/" target="_blank"><img align="center" alt="Testar Aplicação" src="https://img.shields.io/badge/Clique_aqui_para_testar_a_página-6DB33F?style=for-the-badge&logoColor=white"></a>
+
+<a href=https://www.figma.com/file/7pPTCQcJ3CA0d2ZMnqbJGw/DD-%2F-RocketNews-(Copy)?node-id=101%3A2>Layout do desafio<a> </li>
 
 ---
 
@@ -39,4 +39,4 @@
 
 Feito com ❤️ por Giselle Souza. 👋
 <br>
-<a href="https://www.linkedin.com/in/giselle-de-souza-gabriel/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+<a href="https://www.linkedin.com/in/giselle-de-souza-gabriel/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-05122A?style=for-the-flat&logo=linkedin&logoColor=white" target="_blank"></a>
